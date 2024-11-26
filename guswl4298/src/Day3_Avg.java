@@ -20,7 +20,8 @@ public class Day3_Avg {
             sum += a;
         }
         
-        System.out.print((float)sum*100/max/n);
+        // System.out.print((float)sum*100/max/n); <- 방법1: 형변환 
+        System.out.print(sum*100.0/max/n); // 방법2: 처음부터 실수 넣기 
         
     }
 }
