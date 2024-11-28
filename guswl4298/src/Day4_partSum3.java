@@ -27,7 +27,7 @@ public class Day4_partSum3 {
     // 배열 선언 및 크기 할당
     int [] A = new int[suNo];
     
-    st = new StringTokenizer(br.readLine()); // 배열 A 입력 받기 
+    st = new StringTokenizer(br.readLine()); // 배열 A 입력 받기 (엔터를 기점으로 끝나기 때문에, 매번 받아와야 됨)  
     for (int i = 0; i<suNo; i++) {
       A[i] = Integer.parseInt(st.nextToken());
       if (i == 0)
