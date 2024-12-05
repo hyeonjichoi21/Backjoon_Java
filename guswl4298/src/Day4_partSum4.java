@@ -26,7 +26,7 @@ public class Day4_partSum4 {
     st = new StringTokenizer(br.readLine()); // 배열 A 입력 받기 (엔터를 기점으로 끝나기 때문에, 매번 받아와야 됨) 
     for (int i = 1; i<=suNo; i++) {
       S[i] = S[i-1] + Integer.parseInt(st.nextToken());
-      // S[0]값 초기화는 누가해주냐  // JAVA에서  배열의 모든 요소는 기본적으로 0으로 초기화!!!
+      // S[0]값 초기화는 누가해주냐  // ★★★JAVA에서  배열의 모든 요소는 기본적으로 0으로 초기화!!!
       
     }
 
